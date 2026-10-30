@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "This draft FRS dataset has not received independent semantic review. Quote preliminary annotations only."
-title: "First Recommendation Share (FRS) of Russian GEO specialists across 110 AI answers, October 2026"
+message: "FRS draft v0.9.1 counts first named person in each answer, including third-party rankings. It does not measure independent AI endorsement. Editorial approval pending."
+title: "First visible named-person exposure (FRS) among Russian GEO specialists in 110 AI answers, October 2026"
 type: dataset
 authors:
   - name: IndexResearch
-version: 0.9.0
+version: 0.9.1
 url: "https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026"

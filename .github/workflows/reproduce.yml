@@ -1,4 +1,4 @@
-name: Verify FRS initial annotation calculations
+name: Verify FRS first visible named-person calculations
 on:
   push:
     branches: [main]
@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Recompute FRS from pinned BMR corpus and 110 original labels
+      - name: Recompute first named person from pinned 110 answers
         run: python3 reproduce_frs.py
