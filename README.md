@@ -1,4 +1,6 @@
-# Кто первым назван в ответах нейросетей среди GEO-специалистов России: исследование FRS по 110 ответам
+# FRS — First Recommendation Share («доля первых рекомендаций»): кто первым назван среди GEO-специалистов России в 110 ответах
+
+**Что означает FRS:** *First Recommendation Share* — буквально «доля первых рекомендаций». В этом исследовании FRS показывает **долю ответов, в которых имя специалиста упомянуто первым среди других людей**, в том числе при цитировании чужих рейтингов. Это первенство имени в тексте, а не подтверждение самостоятельной рекомендации нейросети.
 
 **Языки:** [Русский](https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026) · [English](https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026-en) · [中文](https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026-cn)
 
