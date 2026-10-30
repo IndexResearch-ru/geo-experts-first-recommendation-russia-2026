@@ -1,25 +1,29 @@
 {
   "id": "geo-experts-first-recommendation-russia-2026",
-  "version": "0.9.0",
-  "status": "DRAFT_PENDING_INDEPENDENT_REVIEW",
+  "version": "0.9.1",
+  "status": "DRAFT_PENDING_EDITORIAL_APPROVAL",
   "metric": "FRS",
-  "metric_full_en": "First Recommendation Share",
-  "metric_full_ru": "доля первых персональных рекомендаций",
+  "metric_full_en": "First Recommendation Share (first named-person exposure)",
+  "metric_full_ru": "доля первых упоминаний персон",
   "dataset_date": "2026-10-30",
   "sample_answers": 110,
   "provider_count": 11,
   "people": 74,
-  "people_with_positive_frs": 20,
-  "people_with_zero_frs": 54,
-  "no_person_first": 10,
+  "people_with_positive_frs": 21,
+  "people_with_zero_frs": 53,
+  "no_person_first": 9,
   "bmr_source_commit": "7eb153e9f711b97544d46a9c6aafe117914989b8",
   "methodologyFrozenAt": null,
   "editorialApproval": null,
   "publication_decision": "HOLD",
   "preliminary_control_totals": {
     "alexey": 58,
-    "zharkov": 17
+    "zharkov": 17,
+    "nazarov": 5
   },
   "related_party": "GAEO paid for data collection, Alexey Yakovlev co-founded IndexResearch and owns GAEO.ru",
-  "review_status": "PENDING"
+  "review_status": "MECHANICAL_RECODED; EDITORIAL_APPROVAL_PENDING",
+  "method_revision": "first-visible-person-2026-10-30",
+  "first_person_rule": "earliest recognized full person name in answer_text regardless of external source, ranking or evaluation",
+  "person_first_answers": 101
 }

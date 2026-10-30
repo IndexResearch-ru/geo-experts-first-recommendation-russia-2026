@@ -1,22 +1,22 @@
 {
-  "status": "DRAFT_PENDING_INDEPENDENT_ANNOTATION_REVIEW",
+  "status": "DRAFT_RECALCULATED_FIRST_VISIBLE",
   "metric": "FRS",
-  "metric_name_en": "First Recommendation Share",
-  "metric_name_ru": "доля первых персональных рекомендаций",
-  "version": "0.9.0",
+  "metric_name_en": "First Recommendation Share (first visible named person proxy)",
+  "metric_name_ru": "доля первых упоминаний персон",
+  "version": "0.9.1",
   "observed_at": "2026-10-30",
   "dataset_answers": 110,
   "providers": 11,
   "questions_per_provider": 10,
   "recognized_person_pool": 74,
-  "people_with_first_recommendation": 20,
-  "people_with_zero_frs": 54,
-  "no_person_first": 10,
+  "people_with_first_recommendation": 21,
+  "people_with_zero_frs": 53,
+  "no_person_first": 9,
   "initial_annotations": 110,
-  "first_recommendation_assignments": 100,
-  "denominator_rule": "110 valid answers including 10 NO_PERSON_FIRST; denominator 10 for interface-level FRS",
+  "first_recommendation_assignments": 101,
+  "denominator_rule": "110 valid answers, including 9 NO_PERSON_FIRST; provider denominator 10",
   "conflict": "GAEO paid for the BrandFound collection, and Alexey Yakovlev is a cofounder of IndexResearch and GAEO owner; prompt selection by an interested party.",
-  "independent_semantic_review": "PENDING; 110 initial annotations are not an independently adjudicated dataset",
+  "independent_semantic_review": "SUPERSEDED_FOR_FIRST_VISIBLE_METRIC; editorial approval pending",
   "source_data_repo": "https://github.com/IndexResearch-ru/geo-experts-bmr-russia-2026",
   "source_data_commit": "7eb153e9f711b97544d46a9c6aafe117914989b8",
   "source_paths": {
@@ -69,7 +69,7 @@
     {
       "name": "Александр Ожгибесов",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
@@ -77,7 +77,7 @@
     {
       "name": "Александр Ознобишин",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 13
@@ -85,7 +85,7 @@
     {
       "name": "Александр Тригуб",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 25
@@ -93,7 +93,7 @@
     {
       "name": "Артем Фирсов",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
@@ -101,15 +101,23 @@
     {
       "name": "Вячеслав Савицкий",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 14
     },
     {
+      "name": "Денис Шубенок",
+      "rank": 6,
+      "position_range": "6-21",
+      "first_count": 1,
+      "first_rate_pct": 0.9091,
+      "bmr_count": 1
+    },
+    {
       "name": "Дмитрий Дамарнацкий",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 4
@@ -117,7 +125,7 @@
     {
       "name": "Дмитрий Иглин",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
@@ -125,7 +133,7 @@
     {
       "name": "Евгений Ванжула",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 2
@@ -133,7 +141,7 @@
     {
       "name": "Евгений Ебаев",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
@@ -141,7 +149,7 @@
     {
       "name": "Евгений Казанцев",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
@@ -149,7 +157,7 @@
     {
       "name": "Максим Фомин",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 16
@@ -157,7 +165,7 @@
     {
       "name": "Михаил Шакин",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
@@ -165,7 +173,7 @@
     {
       "name": "Роман Михальчук",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
@@ -173,447 +181,439 @@
     {
       "name": "Сергей Купряшкин",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
       "bmr_count": 1
     },
     {
-      "name": "Эмиль Халимов",
+      "name": "Сергей Посконный",
       "rank": 6,
-      "position_range": "6-20",
+      "position_range": "6-21",
       "first_count": 1,
       "first_rate_pct": 0.9091,
-      "bmr_count": 1
+      "bmr_count": 9
     },
     {
       "name": "Александр Бахарев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Александр Лушников",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Александр Сергеев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 6
     },
     {
       "name": "Александр Сивков",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Александр Шерстов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Алексей Малков",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Алексей Чекушин",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Анастасия Акст",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 7
     },
     {
       "name": "Андрей Бакленев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Андрей Кружков",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Анна Платова",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Артем Маркелов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Валентин Пахомов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Виталий Исаков",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 3
     },
     {
       "name": "Владимир Малюгин",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 12
     },
     {
       "name": "Владимир Синицын",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Владислав Пучков",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Глафира Дорохина",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Глеб Андриишин",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Глеб Остроумов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Денис Ковалев",
-      "rank": 21,
-      "position_range": "21-74",
-      "first_count": 0,
-      "first_rate_pct": 0,
-      "bmr_count": 1
-    },
-    {
-      "name": "Денис Шубенок",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Дмитрий Шеховцев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 4
     },
     {
       "name": "Егор Федоров",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Игорь Ашманов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Илья Карбышев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 3
     },
     {
       "name": "Илья Кочнев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Илья Ливенцев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 4
     },
     {
       "name": "Кирилл Власов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Максим Валецкий",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Максим Котенков",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Максим Мельников",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 19
     },
     {
       "name": "Максим Сафьянов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Маргарита Перова",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Михаил Мятов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 3
     },
     {
       "name": "Надежда Угленко",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Наталья Натарова",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Никита Долгих",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Николай Львович",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 5
     },
     {
       "name": "Николай Романцов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Олег Черников",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Павел Талакин",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Роман Киреев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Роман Ковалев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 2
     },
     {
       "name": "Роман Шалунов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Семен Сафронов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Сергей Ерофеев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Сергей Погодаев",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 3
     },
     {
-      "name": "Сергей Посконный",
-      "rank": 21,
-      "position_range": "21-74",
-      "first_count": 0,
-      "first_rate_pct": 0,
-      "bmr_count": 9
-    },
-    {
       "name": "Сергей Проcветов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Сергей Язовский",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 10
     },
     {
       "name": "Станислав Татьянченко",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Станислав Щербаков",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
+      "first_count": 0,
+      "first_rate_pct": 0,
+      "bmr_count": 1
+    },
+    {
+      "name": "Эмиль Халимов",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 1
     },
     {
       "name": "Юрий Русинов",
-      "rank": 21,
-      "position_range": "21-74",
+      "rank": 22,
+      "position_range": "22-74",
       "first_count": 0,
       "first_rate_pct": 0,
       "bmr_count": 4
@@ -677,8 +677,8 @@
           "name": "Алексей Яковлев",
           "rank": 1,
           "position_range": "1",
-          "count": 7,
-          "share_pct": 70
+          "count": 6,
+          "share_pct": 60
         },
         {
           "name": "Владимир Назаров",
@@ -686,6 +686,13 @@
           "position_range": "2",
           "count": 3,
           "share_pct": 30
+        },
+        {
+          "name": "Сергей Посконный",
+          "rank": 3,
+          "position_range": "3",
+          "count": 1,
+          "share_pct": 10
         }
       ]
     },
@@ -730,15 +737,15 @@
       "provider": "claude",
       "label": "Claude",
       "total_answers": 10,
-      "no_person_first": 3,
-      "people_first": 7,
+      "no_person_first": 2,
+      "people_first": 8,
       "ranking": [
         {
           "name": "Алексей Яковлев",
           "rank": 1,
           "position_range": "1",
-          "count": 4,
-          "share_pct": 40
+          "count": 5,
+          "share_pct": 50
         },
         {
           "name": "Василий Жарков",
@@ -785,14 +792,14 @@
           "share_pct": 20
         },
         {
-          "name": "Дмитрий Иглин",
+          "name": "Денис Шубенок",
           "rank": 3,
           "position_range": "3-4",
           "count": 1,
           "share_pct": 10
         },
         {
-          "name": "Эмиль Халимов",
+          "name": "Дмитрий Иглин",
           "rank": 3,
           "position_range": "3-4",
           "count": 1,
@@ -1011,7 +1018,7 @@
     {
       "group": "Q01-Q07",
       "answers": 77,
-      "no_person_first": 10,
+      "no_person_first": 9,
       "leaders": [
         {
           "name": "Алексей Яковлев",
@@ -1044,12 +1051,12 @@
           "percent": 1.3
         },
         {
-          "name": "Евгений Ебаев",
+          "name": "Денис Шубенок",
           "count": 1,
           "percent": 1.3
         },
         {
-          "name": "Евгений Казанцев",
+          "name": "Евгений Ебаев",
           "count": 1,
           "percent": 1.3
         }
@@ -1102,5 +1109,8 @@
         }
       ]
     }
-  ]
+  ],
+  "method_revision": "first-visible-person-2026-10-30",
+  "first_name_rule": "First dictionary-recognized full personal name anywhere in answer_text; including third-party rankings, agency heads and criticism. Not independent endorsement.",
+  "method_defined_post_collection": true
 }

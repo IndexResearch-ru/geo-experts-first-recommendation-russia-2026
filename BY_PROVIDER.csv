@@ -1,12 +1,12 @@
 provider,label,answers,person_first,no_person_first,leader_names,leader_count
-chatgpt,"ChatGPT",10,10,0,"Алексей Яковлев",9
-perplexity,"Perplexity",10,10,0,"Алексей Яковлев",9
-deepseek,"DeepSeek",10,10,0,"Алексей Яковлев",7
-grok,"Grok",10,10,0,"Алексей Яковлев",7
-claude,"Claude",10,7,3,"Алексей Яковлев",4
-gemini,"Google Gemini",10,9,1,"Алексей Яковлев",5
-google_ai_mode,"Google AI Mode",10,8,2,"Алексей Яковлев",4
-google_ai_overview,"Google AI Overviews",10,8,2,"Алексей Яковлев",5
-gigachat,"GigaChat",10,10,0,"Василий Жарков",3
-yandex_alice,"Яндекс с Алисой (поиск)",10,9,1,"Василий Жарков",4
-alice_chat,"Алиса AI (чат)",10,9,1,"Василий Жарков",4
+chatgpt,ChatGPT,10,10,0,Алексей Яковлев,9
+perplexity,Perplexity,10,10,0,Алексей Яковлев,9
+deepseek,DeepSeek,10,10,0,Алексей Яковлев,6
+grok,Grok,10,10,0,Алексей Яковлев,7
+claude,Claude,10,8,2,Алексей Яковлев,5
+gemini,Google Gemini,10,9,1,Алексей Яковлев,5
+google_ai_mode,Google AI Mode,10,8,2,Алексей Яковлев,4
+google_ai_overview,Google AI Overviews,10,8,2,Алексей Яковлев,5
+gigachat,GigaChat,10,10,0,Василий Жарков,3
+yandex_alice,Яндекс с Алисой (поиск),10,9,1,Василий Жарков,4
+alice_chat,Алиса AI (чат),10,9,1,Василий Жарков,4
