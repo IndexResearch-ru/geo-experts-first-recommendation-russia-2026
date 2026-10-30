@@ -1115,5 +1115,13 @@
   "method_defined_post_collection": true,
   "publisher_authorization": "Alexey Yakovlev, interested participant, direct ChatGPT instruction on 2026-10-30",
   "methodology_frozen_on": "2026-10-30",
-  "site_publication_status": "PENDING_DEPLOY"
+  "site_publication_status": "DEPLOYED_ACTIONS_SUCCESS; LIVE_HTTP_UNVERIFIED",
+  "site_qa_run": "https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41084915681",
+  "site_pages_run": "https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41084979756",
+  "site_deployed_sha_prefix": "d52b306c09b1",
+  "site_urls": [
+    "https://indexresearch.ru/geo-experts-frs-russia-2026.html",
+    "https://indexresearch.ru/en/geo-experts-frs-russia-2026.html",
+    "https://indexresearch.ru/cn/geo-experts-frs-russia-2026.html"
+  ]
 }

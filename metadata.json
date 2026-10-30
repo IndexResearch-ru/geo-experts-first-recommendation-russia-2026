@@ -28,5 +28,13 @@
   "person_first_answers": 101,
   "publicationAuthorizedBy": "Alexey Yakovlev, interested participant",
   "publicationAuthorizedOn": "2026-10-30",
-  "sitePublicationStatus": "PENDING_DEPLOY"
+  "sitePublicationStatus": "DEPLOYED_ACTIONS_SUCCESS; LIVE_HTTP_UNVERIFIED",
+  "siteQaRun": "https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41084915681",
+  "sitePagesRun": "https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41084979756",
+  "siteDeployedShaPrefix": "d52b306c09b1",
+  "siteUrls": [
+    "https://indexresearch.ru/geo-experts-frs-russia-2026.html",
+    "https://indexresearch.ru/en/geo-experts-frs-russia-2026.html",
+    "https://indexresearch.ru/cn/geo-experts-frs-russia-2026.html"
+  ]
 }
