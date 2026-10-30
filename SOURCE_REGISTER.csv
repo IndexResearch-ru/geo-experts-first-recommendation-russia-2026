@@ -1,0 +1,6 @@
+"source_id","kind","title","url","source_commit","git_blob_sha"
+"FRS-S001","canonical-answer-corpus","110 original AI answers","https://github.com/IndexResearch-ru/geo-experts-bmr-russia-2026/blob/7eb153e9f711b97544d46a9c6aafe117914989b8/data/observations.jsonl","7eb153e9f711b97544d46a9c6aafe117914989b8","e61f1ed05bc4470d8bf4b85a3a63177f1a2156ed"
+"FRS-S002","recognition-dictionary","Locked BMR personal-name dictionary (74 persons)","https://github.com/IndexResearch-ru/geo-experts-bmr-russia-2026/blob/7eb153e9f711b97544d46a9c6aafe117914989b8/data/entity_dictionary.csv","7eb153e9f711b97544d46a9c6aafe117914989b8","79c6d6e88ddafe086eef894c0452a1c759f6a493"
+"FRS-S003","question-panel","Original query panel","https://github.com/IndexResearch-ru/geo-experts-bmr-russia-2026/blob/7eb153e9f711b97544d46a9c6aafe117914989b8/data/prompts.json","7eb153e9f711b97544d46a9c6aafe117914989b8","04b0ba3bb264dc14a9607e4e7fc883e466db220c"
+"FRS-S004","methodology","FRS first visible personal name methodology","https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026/blob/main/METHODOLOGY.md","",""
+"FRS-S005","reproduction-code","FRS locked-data verification script","https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026/blob/main/reproduce_frs.py","",""
