@@ -1,0 +1,12 @@
+{
+  "description": "Shared immutable answer corpus; do not duplicate raw responses across FRS language repos",
+  "repository": "IndexResearch-ru/geo-experts-bmr-russia-2026",
+  "commit_sha": "7eb153e9f711b97544d46a9c6aafe117914989b8",
+  "files": {
+    "data/observations.jsonl": "e61f1ed05bc4470d8bf4b85a3a63177f1a2156ed",
+    "data/entity_dictionary.csv": "79c6d6e88ddafe086eef894c0452a1c759f6a493",
+    "data/prompts.json": "04b0ba3bb264dc14a9607e4e7fc883e466db220c"
+  },
+  "hash_rule": "Git blob SHA-1 of UTF-8 raw content",
+  "scope": "FRS reuses the same 110 empirical observations as BMR; not an independent dataset"
+}
