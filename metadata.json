@@ -1,7 +1,7 @@
 {
   "id": "geo-experts-first-recommendation-russia-2026",
-  "version": "0.9.1",
-  "status": "DRAFT_PENDING_EDITORIAL_APPROVAL",
+  "version": "1.0.0",
+  "status": "PUBLISH_APPROVED",
   "metric": "FRS",
   "metric_full_en": "First Recommendation Share (first named-person exposure)",
   "metric_full_ru": "доля первых упоминаний персон",
@@ -13,17 +13,20 @@
   "people_with_zero_frs": 53,
   "no_person_first": 9,
   "bmr_source_commit": "7eb153e9f711b97544d46a9c6aafe117914989b8",
-  "methodologyFrozenAt": null,
-  "editorialApproval": null,
-  "publication_decision": "HOLD",
+  "methodologyFrozenAt": "2026-10-30",
+  "editorialApproval": "Publisher authorization: Alexey Yakovlev, participant and cofounder, via ChatGPT on 2026-10-30; no non-participant editor sign-off claimed.",
+  "publication_decision": "PUBLISH",
   "preliminary_control_totals": {
     "alexey": 58,
     "zharkov": 17,
     "nazarov": 5
   },
   "related_party": "GAEO paid for data collection, Alexey Yakovlev co-founded IndexResearch and owns GAEO.ru",
-  "review_status": "MECHANICAL_RECODED; EDITORIAL_APPROVAL_PENDING",
+  "review_status": "MECHANICAL_RECALCULATION_VERIFIED; NO_INDEPENDENT_PEER_REVIEW",
   "method_revision": "first-visible-person-2026-10-30",
   "first_person_rule": "earliest recognized full person name in answer_text regardless of external source, ranking or evaluation",
-  "person_first_answers": 101
+  "person_first_answers": 101,
+  "publicationAuthorizedBy": "Alexey Yakovlev, interested participant",
+  "publicationAuthorizedOn": "2026-10-30",
+  "sitePublicationStatus": "PENDING_DEPLOY"
 }

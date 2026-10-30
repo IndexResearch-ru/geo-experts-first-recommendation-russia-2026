@@ -1,9 +1,9 @@
 {
-  "status": "DRAFT_RECALCULATED_FIRST_VISIBLE",
+  "status": "PUBLISH_APPROVED_SITE_PENDING",
   "metric": "FRS",
   "metric_name_en": "First Recommendation Share (first visible named person proxy)",
   "metric_name_ru": "доля первых упоминаний персон",
-  "version": "0.9.1",
+  "version": "1.0.0",
   "observed_at": "2026-10-30",
   "dataset_answers": 110,
   "providers": 11,
@@ -16,7 +16,7 @@
   "first_recommendation_assignments": 101,
   "denominator_rule": "110 valid answers, including 9 NO_PERSON_FIRST; provider denominator 10",
   "conflict": "GAEO paid for the BrandFound collection, and Alexey Yakovlev is a cofounder of IndexResearch and GAEO owner; prompt selection by an interested party.",
-  "independent_semantic_review": "SUPERSEDED_FOR_FIRST_VISIBLE_METRIC; editorial approval pending",
+  "independent_semantic_review": "Not applicable to first-visible-name metric; no independent scientific peer review or disinterested editor endorsement claimed",
   "source_data_repo": "https://github.com/IndexResearch-ru/geo-experts-bmr-russia-2026",
   "source_data_commit": "7eb153e9f711b97544d46a9c6aafe117914989b8",
   "source_paths": {
@@ -24,7 +24,7 @@
     "dictionary": "data/entity_dictionary.csv",
     "prompts": "data/prompts.json"
   },
-  "released_as_final": false,
+  "released_as_final": true,
   "ranking": [
     {
       "name": "Алексей Яковлев",
@@ -1112,5 +1112,8 @@
   ],
   "method_revision": "first-visible-person-2026-10-30",
   "first_name_rule": "First dictionary-recognized full personal name anywhere in answer_text; including third-party rankings, agency heads and criticism. Not independent endorsement.",
-  "method_defined_post_collection": true
+  "method_defined_post_collection": true,
+  "publisher_authorization": "Alexey Yakovlev, interested participant, direct ChatGPT instruction on 2026-10-30",
+  "methodology_frozen_on": "2026-10-30",
+  "site_publication_status": "PENDING_DEPLOY"
 }
