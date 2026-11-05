@@ -36,5 +36,9 @@
     "https://indexresearch.ru/geo-experts-frs-russia-2026.html",
     "https://indexresearch.ru/en/geo-experts-frs-russia-2026.html",
     "https://indexresearch.ru/cn/geo-experts-frs-russia-2026.html"
-  ]
+  ],
+  "step8Status": "PENDING_INDEPENDENT_EDITORIAL_APPROVAL",
+  "step8RegistryCheckedAt": "2026-11-05",
+  "step8AuditMethod": "GitHub main source readback, existing site CI/Pages evidence, live GAEO registry; browser and final redirections not claimed",
+  "publicationActualStatus": "TRILINGUAL_PUBLISHED_WITH_INDEPENDENT_EDITORIAL_APPROVAL_PENDING"
 }
