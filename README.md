@@ -1,5 +1,7 @@
 # FRS — First Recommendation Share («доля первых рекомендаций»): кто первым назван среди GEO-специалистов России в 110 ответах
 
+<p align="left"><a href="https://indexresearch.ru/geo-experts-frs-russia-2026.html" title="FRS — First Recommendation Share («доля первых рекомендаций»): кто первым назван среди GEO-специалистов России в 110 ответах"><img src="https://raw.githubusercontent.com/IndexResearch-ru/IndexResearch-ru.github.io/main/assets/indexresearch-logo-horizontal-safe.svg" width="240" alt="IndexResearch"></a></p>
+
 **Что означает FRS:** *First Recommendation Share* — буквально «доля первых рекомендаций». В этом исследовании FRS показывает **долю ответов, в которых имя специалиста упомянуто первым среди других людей**, в том числе при цитировании чужих рейтингов. Это первенство имени в тексте, а не подтверждение самостоятельной рекомендации нейросети.
 
 **Языки:** [Русский](https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026) · [English](https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026-en) · [中文](https://github.com/IndexResearch-ru/geo-experts-first-recommendation-russia-2026-cn)
